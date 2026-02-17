@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-chime-sdk-meetings`](https://www.npmjs.com/package/@aws-sdk/client-chime-sdk-meetings/v/3.105.0).
+[`@aws-sdk/client-chime-sdk-meetings`](https://www.npmjs.com/package/@aws-sdk/client-chime-sdk-meetings/v/3.108.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-chime-sdk-meetings@3.105.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-chime-sdk-meetings@3.108.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-rwxp9i3+LA6IrC8bPl5WR7bXbp+z9e3JgzYRNoz121l2EsZ5HQC74c/obJ4vi+bQ
+sha384-JCyyz9QQnW1SQW41y2mIIn6H6kSmj+uYLE6BlN74EZPBVUlipMHJvEKLsVU2gOIm
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-chime-sdk-meetings": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-chime-sdk-meetings@3.105.0/index.min.mjs"
+            "@aws-sdk/client-chime-sdk-meetings": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-chime-sdk-meetings@3.108.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-chime-sdk-meetings@3.105.0/index.min.mjs": "sha384-rwxp9i3+LA6IrC8bPl5WR7bXbp+z9e3JgzYRNoz121l2EsZ5HQC74c/obJ4vi+bQ"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-chime-sdk-meetings@3.108.0/index.min.mjs": "sha384-JCyyz9QQnW1SQW41y2mIIn6H6kSmj+uYLE6BlN74EZPBVUlipMHJvEKLsVU2gOIm"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-chime-sdk-meetings": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-chime-sdk-meetings@3.105.0/index.min.mjs"
+                        "@aws-sdk/client-chime-sdk-meetings": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-chime-sdk-meetings@3.108.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-chime-sdk-meetings@3.105.0/index.min.mjs": "sha384-rwxp9i3+LA6IrC8bPl5WR7bXbp+z9e3JgzYRNoz121l2EsZ5HQC74c/obJ4vi+bQ"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-chime-sdk-meetings@3.108.0/index.min.mjs": "sha384-JCyyz9QQnW1SQW41y2mIIn6H6kSmj+uYLE6BlN74EZPBVUlipMHJvEKLsVU2gOIm"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.105.0`)
+* Always pin to a specific version (`@3.108.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-chime-sdk-meetings/blob/refs/tags/3.105.0/LICENSE
+https://github.com/cloud-sdk-builds/client-chime-sdk-meetings/blob/refs/tags/3.108.0/LICENSE
 ```
 
 ---
